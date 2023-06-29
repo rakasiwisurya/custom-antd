@@ -1,0 +1,187 @@
+:root {
+  --warning: #faad14;
+  --warning-hover: #ffc53d;
+  --warning-active: #d48806;
+
+  --success: #52c41a;
+  --success-hover: #73d13d;
+  --success-active: #389e0d;
+
+  --info: #69c0ff;
+  --info-hover: #91d5ff;
+  --info-active: #40a9ff;
+
+  --secondary: #bfbfbf;
+  --secondary-hover: #d9d9d9;
+  --secondary-active: #8c8c8c;
+
+  --indigo: #2f54eb;
+  --indigo-hover: #597ef7;
+  --indigo-active: #1d39c4;
+
+  --violet: #722ed1;
+  --violet-hover: #9254de;
+  --violet-active: #531dab;
+}
+
+.btn-warning {
+  background-color: var(--warning);
+}
+
+.btn-warning:not(:disabled):hover {
+  background-color: var(--warning-hover);
+}
+
+.btn-warning:not(:disabled):active {
+  background-color: var(--warning-active);
+}
+
+.btn-outline-warning {
+  color: var(--warning);
+  border-color: var(--warning);
+}
+
+.btn-outline-warning:not(:disabled):hover {
+  color: var(--warning-hover);
+  border-color: var(--warning-hover);
+}
+
+.btn-outline-warning:not(:disabled):hover {
+  color: var(--warning-active);
+  border-color: var(--warning-active);
+}
+
+.btn-success {
+  background-color: var(--success);
+}
+
+.btn-success:not(:disabled):hover {
+  background-color: var(--success-hover);
+}
+
+.btn-success:not(:disabled):active {
+  background-color: var(--success-active);
+}
+
+.btn-outline-success {
+  color: var(--success);
+  border-color: var(--success);
+}
+
+.btn-outline-success:not(:disabled):hover {
+  color: var(--success-hover);
+  border-color: var(--success-hover);
+}
+
+.btn-outline-success:not(:disabled):hover {
+  color: var(--success-active);
+  border-color: var(--success-active);
+}
+
+.btn-info {
+  background-color: var(--info);
+}
+
+.btn-info:not(:disabled):hover {
+  background-color: var(--info-hover);
+}
+
+.btn-info:not(:disabled):active {
+  background-color: var(--info-active);
+}
+
+.btn-outline-info {
+  color: var(--info);
+  border-color: var(--info);
+}
+
+.btn-outline-info:not(:disabled):hover {
+  color: var(--info-hover);
+  border-color: var(--info-hover);
+}
+
+.btn-outline-info:not(:disabled):hover {
+  color: var(--info-active);
+  border-color: var(--info-active);
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+}
+
+.btn-secondary:not(:disabled):hover {
+  background-color: var(--secondary-hover);
+}
+
+.btn-secondary:not(:disabled):active {
+  background-color: var(--secondary-active);
+}
+
+.btn-outline-secondary {
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.btn-outline-secondary:not(:disabled):hover {
+  color: var(--secondary-hover);
+  border-color: var(--secondary-hover);
+}
+
+.btn-outline-secondary:not(:disabled):hover {
+  color: var(--secondary-active);
+  border-color: var(--secondary-active);
+}
+
+.btn-indigo {
+  background-color: var(--indigo);
+}
+
+.btn-indigo:not(:disabled):hover {
+  background-color: var(--indigo-hover);
+}
+
+.btn-indigo:not(:disabled):active {
+  background-color: var(--indigo-active);
+}
+
+.btn-outline-indigo {
+  color: var(--indigo);
+  border-color: var(--indigo);
+}
+
+.btn-outline-indigo:not(:disabled):hover {
+  color: var(--indigo-hover);
+  border-color: var(--indigo-hover);
+}
+
+.btn-outline-indigo:not(:disabled):hover {
+  color: var(--indigo-active);
+  border-color: var(--indigo-active);
+}
+
+.btn-violet {
+  background-color: var(--violet);
+}
+
+.btn-violet:not(:disabled):hover {
+  background-color: var(--violet-hover);
+}
+
+.btn-violet:not(:disabled):active {
+  background-color: var(--violet-active);
+}
+
+.btn-outline-violet {
+  color: var(--violet);
+  border-color: var(--violet);
+}
+
+.btn-outline-violet:not(:disabled):hover {
+  color: var(--violet-hover);
+  border-color: var(--violet-hover);
+}
+
+.btn-outline-violet:not(:disabled):hover {
+  color: var(--violet-active);
+  border-color: var(--violet-active);
+}
