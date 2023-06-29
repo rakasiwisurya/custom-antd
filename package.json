@@ -1,7 +1,7 @@
 {
   "name": "custom-button-antd",
   "version": "0.1.0",
-  "homepage": "https://rakasiwisurya.github.io/custom-button-antd",
+  "homepage": "https://rakasiwisurya.github.io/custom-antd",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
